@@ -1,0 +1,139 @@
+body{
+    background-image: url(../img/g-q-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 { color: #bebca5; font-family: 'Trocchi', serif; font-size: 45px; font-weight: bold; line-height: 48px; margin: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+div {
+    
+    margin: 10px 0px 10px 0px;
+    width: 80%;
+    height: auto;
+    float: left;
+    
+}
+div :hover{
+    background-color: rgba(71, 70, 70, 0.75);
+    border-radius: 20px;
+    color: white;
+    
+    
+    transition: 2s;
+
+}
+
+
+aside {
+    width: 13%;
+    display: block;
+    align-items: center;
+    justify-items: center;    
+    height: 320px;
+    justify-content: center;
+    background-color: #ed3e3e;
+    border-radius: 15px;
+    float: right;
+    transform: translateY(300px);
+
+
+    
+}
+
+aside:hover {
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+.qr {
+    width: 140px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+span {
+    text-align: center;
+
+    justify-content:flex-start;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 600;
+    color: aliceblue;
+    width: 10px;
+    
+}
+
+
+
+.images ol {
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+    height: 200px;
+    width: 100%;    
+    justify-content: center;
+    margin: 0 auto;
+    list-style-position: inside;
+    padding: 0px;
+    transform: translateY(35px);
+}
+.images ol:hover{
+    background: none;
+}
+@media screen and (min-width: 600px) {
+    .images ol {
+        display: block;}
+    .qr {
+        width: 80px;
+        height: 100px;
+    }
+}
+.images li {
+    margin:10px;
+    float: left;
+
+    
+    
+}
+
+.img{
+    width: 180px;
+    height: 130px;
+    border-radius: 15px;
+    float: left;
+}
+.img:hover{
+    width: 350px;
+    height: 200px;
+    transition: 2s;
+}
+
+.story1, .story2, .footer, .ordered, .unordered {
+    font-family: 'Xanh Mono', monospace;
+    font-weight: 700;
+    color: #030f1a;
+    font-size: 20px;
+    width: 85%;
+    text-align: justify;
+    background-color: rgba(245,245,220, 0.20);
+    border-radius: 20px;
+    
+}
+
+.ordered {
+    width: 80%;
+}
+
+
+li{
+    margin: 10px;
+}
+
+ul {
+    list-style-image:url(../img/utensils-solid.svg);
+    
+}
+
+
